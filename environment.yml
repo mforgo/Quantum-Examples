@@ -1,4 +1,4 @@
-name: C:\Users\quantum\anaconda3\envs\myenv
+name: ntc
 channels:
   - conda-forge
   - defaults
