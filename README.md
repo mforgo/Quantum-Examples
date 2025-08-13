@@ -1,55 +1,57 @@
+![NTC ZCU Kvantová pětka Logo](Media/logo.svg)
 # Quantum Informatics Notebooks
 
-Welcome to the **Quantum Informatics** project. This repository is a collection of interactive Jupyter notebooks exploring the principles and algorithms of quantum computing, with a focus on quantum gates, circuits, and arithmetic operations.
+Collection of educational Jupyter notebooks in quantum computing, developed under NTC Západočeská univerzita’s “Kvantová pětka” initiative.
 
-## Project Overview
+## Overview
 
-This repository serves as a learning resource and experimental playground for quantum informatics. It contains practical examples implemented using Qiskit and Python, covering fundamental topics and more advanced quantum computing techniques.
-
-### Topics Include
-
-- Quantum Gates and Operations
-- Quantum Circuits and Circuit Design
-- Quantum Fourier Transform (QFT)
-- Quantum Arithmetic (Addition, Multiplication)
-- Quantum Machine Learning Concepts (e.g., Quantum k-Means)
-- Circuit Visualization and Simulation
-
-## Technologies Used
-
-- Python 3
-- Conda (environment management)
-- Qiskit
-- Jupyter Notebooks
-- Matplotlib / Plotly (for visualizations)
+Quantum Informatics Notebooks is a hands-on repository designed to teach and demonstrate core concepts in quantum computing. This living collection of interactive notebooks covers everything from basic quantum gates to advanced algorithms, all built with Qiskit and Python. It is actively developed by the NTC ZCU team as part of the Kvantová pětka program.
 
 ## Getting Started
 
-### Set Up the Environment
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/your-org/quantum-informatics-notebooks.git
+   cd quantum-informatics-notebooks
+   ```
 
-Create and activate the Conda environment using the provided `environment.yml`:
+2. **Create the Conda environment**  
+Conda
+   ```bash
+   conda env create -f environment.yml
+   conda activate ntc
+   ```
+Venv Windows
+   ```bash
+   python -m venv ./venv/
+   .\venv\Scripts\activate.bat
+   pip install requirements.txt
+   ```
+Venv Linux
+   ```bash
+   python -m venv ./venv/
+   python -m venv venv
+   pip install requirements.txt
+   ```
 
-```bash
-conda env create -f environment.yml
-conda activate quantum-informatics
-```
+3. **Launch Jupyter**  
+   ```bash
+   jupyter notebook
+   ```
 
-### Launch the Notebooks
+4. **Open a Notebook**  
+   Browse the `notebooks/` directory and select a topic to explore.
 
-Start Jupyter and open the notebooks:
+## Contributing
 
-```bash
-jupyter notebook
-```
+This repository is under active development by the NTC ZCU Kvantová pětka team. Contributions are welcome:
 
-## Target Audience
+1. Fork the repository.  
+2. Create a feature branch:  
+   ```bash
+   git checkout -b feature/your-topic
+   ```
+3. Add or improve notebooks, documentation, or scripts.  
+4. Submit a pull request for review.
 
-This project is intended for:
-
-- Students and enthusiasts of quantum computing
-- Researchers exploring quantum algorithms and circuits
-- Educators looking for practical notebook examples to teach quantum informatics
-
-## License
-
-This project is open-source under the MIT License. Feel free to use, modify, and share with attribution.
+Please follow the existing notebook style and include clear explanations for any new material.
