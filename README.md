@@ -1,4 +1,4 @@
-![NTC ZCU Kvantová pětka Logo](Media/logo.svg)
+![NTC ZCU Kvantová pětka Logo](Media/logo.png)
 # Quantum Informatics Notebooks
 
 Collection of educational Jupyter notebooks in quantum computing, developed under NTC Západočeská univerzita’s “Kvantová pětka” initiative.
