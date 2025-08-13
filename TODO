@@ -1,0 +1,241 @@
+## TODO List for Quantum-Examples Repository
+
+### 📚 **Gates Refinement**
+- [ ] **Enhance existing gate notebooks:**
+  - [ ] Add more detailed theoretical explanations for each gate
+  - [ ] Include mathematical derivations and proofs
+  - [ ] Add interactive visualizations using Qiskit's plotting tools
+  - [ ] Create comparison sections between different gates
+  - [ ] Add practical applications and use cases for each gate
+
+- [ ] **Create additional gate notebooks:**
+  - [ ] **Pauli Gates (X, Y, Z)** - Single-qubit rotation gates
+  - [ ] **Phase Gate (S)** - Quarter-turn phase gate
+  - [ ] **T Gate** - Eighth-turn phase gate  
+  - [ ] **CNOT Gate** - Two-qubit controlled-NOT gate
+  - [ ] **Controlled-Z Gate** - Two-qubit controlled phase flip
+  - [ ] **Toffoli Gate** - Three-qubit controlled-controlled-NOT
+  - [ ] **Fredkin Gate** - Three-qubit controlled-SWAP
+  - [ ] **Rotation Gates (RX, RY, RZ)** - Parameterized single-qubit rotations
+  - [ ] **U Gate** - Universal single-qubit gate
+
+- [ ] **Improve notebook structure:**
+  - [ ] Standardize format across all gate notebooks
+  - [ ] Add "Prerequisites" section to each notebook
+  - [ ] Include "Further Reading" and references
+  - [ ] Add exercises and challenges at the end of each notebook
+
+### 🔬 **HHL Algorithm Implementation**
+- [ ] **Create comprehensive HHL notebook:**
+  - [ ] **Theory Section:**
+    - [ ] Linear systems of equations background
+    - [ ] Quantum phase estimation explanation
+    - [ ] Amplitude amplification concepts
+    - [ ] Complexity analysis (exponential speedup conditions)
+  
+  - [ ] **Implementation Section:**
+    - [ ] Step-by-step HHL algorithm breakdown
+    - [ ] Quantum Phase Estimation (QPE) implementation
+    - [ ] Controlled rotation for eigenvalue inversion
+    - [ ] Amplitude amplification for solution extraction
+  
+  - [ ] **Practical Examples:**
+    - [ ] 2x2 system solver
+    - [ ] 4x4 system with different condition numbers
+    - [ ] Comparison with classical methods
+    - [ ] Error analysis and noise considerations
+  
+  - [ ] **Applications:**
+    - [ ] Machine learning applications
+    - [ ] Optimization problems
+    - [ ] Scientific computing use cases
+
+### 📖 **Documentation & README Updates**
+- [ ] **Comprehensive README rewrite:**
+  - [ ] Add project overview and objectives
+  - [ ] Include installation instructions for all dependencies
+  - [ ] Create learning path/roadmap for beginners
+  - [ ] Add table of contents with direct links to notebooks
+  - [ ] Include prerequisites (Python, linear algebra, quantum mechanics basics)
+  
+- [ ] **Add sections:**
+  - [ ] **Getting Started Guide**
+  - [ ] **Notebook Descriptions** with difficulty levels
+  - [ ] **Contributing Guidelines**
+  - [ ] **License Information**
+  - [ ] **Acknowledgments and References**
+  - [ ] **Troubleshooting Section**
+
+- [ ] **Create additional documentation:**
+  - [ ] `CONTRIBUTING.md` with guidelines for contributors
+  - [ ] `CODE_OF_CONDUCT.md` for community standards
+  - [ ] `CHANGELOG.md` to track version updates
+
+### 🔧 **Code Quality & Structure**
+- [ ] **Standardize notebook formats:**
+  - [ ] Consistent cell structure (markdown headers, code, explanations)
+  - [ ] Standard imports section in all notebooks
+  - [ ] Error handling and validation
+  - [ ] Code comments and docstrings
+  
+- [ ] **Add utility functions:**
+  - [ ] Create `utils.py` with common quantum functions
+  - [ ] Visualization helpers
+  - [ ] Circuit optimization functions
+  - [ ] State preparation utilities
+
+- [ ] **Testing & Validation:**
+  - [ ] Add unit tests for custom functions
+  - [ ] Validate quantum circuits execute correctly
+  - [ ] Check mathematical correctness of results
+  - [ ] Performance benchmarking
+
+### 🎯 **Advanced Notebooks**
+- [ ] **Quantum Algorithms:**
+  - [ ] **Variational Quantum Eigensolver (VQE)**
+  - [ ] **Quantum Approximate Optimization Algorithm (QAOA)**
+  - [ ] **Grover's Search Algorithm**
+  - [ ] **Shor's Factoring Algorithm**
+  - [ ] **Quantum Fourier Transform applications**
+
+- [ ] **Quantum Machine Learning:**
+  - [ ] Quantum Support Vector Machines
+  - [ ] Quantum Neural Networks
+  - [ ] Quantum Principal Component Analysis
+  - [ ] Quantum Reinforcement Learning
+
+### 🔬 **Enhanced Existing Notebooks**
+- [ ] **RGQFTMultiplier improvements:**
+  - [ ] Add more detailed complexity analysis
+  - [ ] Compare with classical multiplication
+  - [ ] Extend to larger bit sizes
+  - [ ] Add error correction considerations
+
+- [ ] **QKmeans enhancements:**
+  - [ ] Add more datasets for testing
+  - [ ] Compare with classical k-means performance
+  - [ ] Implement quantum advantage analysis
+  - [ ] Add visualization of clustering results
+
+### 🌐 **Interactive Features**
+- [ ] **Add interactive elements:**
+  - [ ] Parameter sliders for gate rotations
+  - [ ] Interactive circuit builders
+  - [ ] Real-time visualization updates
+  - [ ] Widget-based quantum state manipulations
+
+- [ ] **Integration with quantum hardware:**
+  - [ ] IBM Quantum backend examples
+  - [ ] Noise simulation and mitigation
+  - [ ] Real device execution examples
+  - [ ] Performance comparisons (simulator vs. hardware)
+
+### 📊 **Data & Visualization**
+- [ ] **Enhanced visualizations:**
+  - [ ] 3D Bloch sphere animations
+  - [ ] Circuit depth and gate count analysis
+  - [ ] Quantum volume measurements
+  - [ ] Fidelity and error rate plots
+
+- [ ] **Dataset expansion:**
+  - [ ] Add more quantum datasets in `/Data`
+  - [ ] Include benchmark problems
+  - [ ] Real-world application datasets
+  - [ ] Synthetic quantum data generators
+
+### 🚀 **Deployment & Sharing**
+- [ ] **Online accessibility:**
+  - [ ] Deploy notebooks to Binder or Google Colab
+  - [ ] Create GitHub Pages documentation site
+  - [ ] Add notebook preview links in README
+  - [ ] Set up continuous integration for testing
+
+- [ ] **Community engagement:**
+  - [ ] Create discussion templates for GitHub Issues
+  - [ ] Add tutorial videos or walkthroughs
+  - [ ] Participate in quantum computing forums
+  - [ ] Submit to quantum education repositories
+
+## Priority Levels:
+- **🔥 High Priority:** Gates refinement, HHL notebook, README update
+- **⚡ Medium Priority:** Code standardization, advanced notebooks
+- **💡 Low Priority:** Interactive features, deployment
+
+This TODO list will help transform your quantum examples repository into a comprehensive educational resource for quantum computing enthusiasts and researchers!
+
+[1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/88663639/2cd7ba95-012b-4d75-bec9-615dab10838e/RGQFTMultiplier.ipynb
+[2] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/88663639/192c4f3f-7cb6-48bd-8b70-da8ff3942bd6/QKmeans.ipynb
+[3] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/88663639/3cee3a1c-2e93-4916-af0d-69f3f62a43d2/Hadamard.ipynb
+[4] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/88663639/30ffa9cd-89c4-4892-8fdd-da838f4d2247/Identity.ipynb
+[5] https://pennylane.ai/qml/demos/linear_equations_hhl_qrisp_catalyst
+[6] https://qrisp.eu/general/tutorial/HHL.html
+[7] https://github.com/tybens/quantum-data-fitting-HHL
+[8] https://www.quera.com/glossary/hhl
+[9] https://arxiv.org/abs/1802.08227
+[10] https://github.com/LeDernier/qiskit-HHL
+[11] https://en.wikipedia.org/wiki/HHL_algorithm
+[12] https://www.nature.com/articles/s41598-024-69077-0
+[13] https://upcommons.upc.edu/bitstreams/a03e048a-bda3-49f6-a4f4-5488950ee67f/download
+[14] https://quantum.cloud.ibm.com/docs/api/qiskit/0.32/qiskit.aqua.algorithms.HHL
+[15] https://quantumzeitgeist.com/quantum-algorithms-for-solving-linear-systems-why-they-matter/
+[16] https://arxiv.org/pdf/2108.09004.pdf
+[17] https://physlab.org/wp-content/uploads/2023/05/HHL_22120009_Fin.pdf
+[18] https://docs.classiq.io/latest/user-guide/practice/hhl_workshop/hhl_workshop/
+[19] https://dojo.qulacs.org/en/latest/notebooks/7.3_application_of_HHL_algorithm.html
+[20] https://www.youtube.com/watch?v=O0efMku9NEs
+[21] https://diamhomes.ewi.tudelft.nl/~kvuik/numanal/sigurdsson_afst.pdf
+[22] https://arxiv.org/abs/2108.09004
+[23] https://inspirehep.net/literature/1908965
+[24] https://dojo.qulacs.org/en/latest/notebooks/7.2_Harrow-Hassidim-Lloyd_algorithm.html
+[25] https://arxiv.org/pdf/2307.05203.pdf
+[26] https://quantum.cloud.ibm.com/docs/api/qiskit/0.24/qiskit.aqua.algorithms.HHL
+[27] https://qniverse.in/docs/harrow-hassidim-lloydhhl-algorithm/
+[28] https://link.springer.com/article/10.1007/s13222-024-00467-4
+[29] https://quantum.cloud.ibm.com/docs/api/qiskit/0.37/qiskit.algorithms.linear_solvers.HHL
+[30] https://www.nature.com/articles/s41598-023-45392-w
+[31] https://www.nature.com/articles/s41598-022-17660-8
+[32] https://www.scirp.org/journal/paperinformation?paperid=138062
+[33] https://inspirehep.net/files/10db171a52fa2ea987bef6e10053cad8
+[34] https://docs.ionq.com/guides/getting-started-with-native-gates
+[35] https://link.aps.org/doi/10.1103/PhysRevLett.103.150502
+[36] https://quantum.cloud.ibm.com/docs/guides/error-mitigation-and-suppression-techniques
+[37] https://physlab.org/wp-content/uploads/2023/05/HHL_23100231_Fin.pdf
+[38] https://www.classiq.io/insights/harrow-hassidim-lloyd-hhl
+[39] https://en.wikipedia.org/wiki/Quantum_logic_gate
+[40] https://quantum.cloud.ibm.com/docs/api/qiskit/0.39/qiskit.algorithms.linear_solvers.HHL
+[41] https://quantum.cloud.ibm.com/learning/courses/utility-scale-quantum-computing/bits-gates-and-circuits
+[42] https://physlab.org/wp-content/uploads/2023/05/HHL_21060001_Fin.pdf
+[43] https://learn.microsoft.com/en-us/azure/quantum/concepts-circuits
+[44] https://en.wikipedia.org/wiki/List_of_quantum_logic_gates
+[45] https://wayama.io/en/rec/qiskit/hhl/
+[46] https://github.com/qutip/qutip-notebooks/blob/master/examples/quantum-gates.ipynb
+[47] https://github.com/Qiskit/qiskit-community-tutorials/blob/master/awards/teach_me_qiskit_2018/quantum_machine_learning/QISKIT%20for%20quantum%20machine%20learning.ipynb
+[48] https://quantumzeitgeist.com/quantum-gates-and-circuits/
+[49] https://siyuan-bruce.github.io/2021/11/19/HHL-Algorithm.html
+[50] http://www.orientjchem.org/vol30no4/the-structure-of-qubit-and-quantum-gates-in-quantum-computers/
+[51] https://quantum.cloud.ibm.com/docs/en/api/qiskit/0.45/qiskit.circuit.library.RGQFTMultiplier
+[52] https://github.com/hritiksauw199/Quantum-Distance-Estimator-for-K-Means-clustering
+[53] https://www.youtube.com/watch?v=NTplT4WnNbk
+[54] https://quantum.cloud.ibm.com/docs/api/qiskit/qiskit.circuit.library.RGQFTMultiplier
+[55] https://oulurepo.oulu.fi/bitstream/10024/49145/1/nbnfioulu-202405033107.pdf
+[56] https://qmunity.thequantuminsider.com/2024/06/10/hello-world-in-qiskit/
+[57] https://arxiv.org/pdf/2505.00701.pdf
+[58] https://arxiv.org/pdf/2112.08506.pdf
+[59] https://www.linkedin.com/learning/quantum-computing-fundamentals/pauli-x-gate-with-qiskit
+[60] https://arxiv.org/abs/2507.08699
+[61] https://www.sciencedirect.com/science/article/pii/S0304397524000811
+[62] https://enccs.github.io/qas2023/notebooks/E1_qc-1/
+[63] https://link.aps.org/doi/10.1103/PhysRevA.103.032417
+[64] https://www.numberanalytics.com/blog/ultimate-guide-quantum-k-means
+[65] https://quantum.cloud.ibm.com/docs/guides
+[66] https://pennylane.ai/qml/demos/tutorial_qft_arithmetics
+[67] https://quantumalgorithms.org/chap-q-means.html
+[68] https://www.coursera.org/learn/packt-beginners-guide-to-practical-quantum-computing-with-ibm-qiskit-w6mos
+[69] https://github.com/Qiskit/qiskit/blob/main/qiskit/circuit/library/arithmetic/multipliers/rg_qft_multiplier.py
+[70] https://library.fiveable.me/quantum-machine-learning/unit-13/quantum-k-means-algorithm/study-guide/BtwdNnQ3uBT3fwRG
+[71] https://quantum-journal.org/papers/q-2023-11-22-1188/
+[72] https://quantum.cloud.ibm.com/docs/api/qiskit/0.35/qiskit.algorithms.linear_solvers
+[73] https://arxiv.org/abs/2406.12086
+[74] https://link.aps.org/doi/10.1103/PRXQuantum.3.040303
+[75] https://arxiv.org/abs/2411.02522
+[76] https://arxiv.org/abs/0811.3171
