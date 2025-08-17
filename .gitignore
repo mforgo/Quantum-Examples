@@ -1,2 +1,161 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+venv/
+.venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+# Conda
+conda-meta/
+conda-bld/
+*.conda
+*.ipynb_checkpoints/*.conda
+.envrc
+.ntc/  # in case you keep local scratch here
+
+# Poetry
+.poetry/
+poetry.lock
+
+# Pyenv
+.python-version
+
+# PDM
+.pdm.toml
+.pdm.lock
+__pypackages__/
+
+# Hatch
+.hatch/
+
+# Mypy / Pyright / Type checkers
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+typings/
+
+# Test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+*.hypothesis/
+pytest_cache/
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+# Jupyter Notebook local config/runtime
+.jupyter/
+.ipython/
+# Large notebook outputs (optional: uncomment to strip by pattern)
+# notebooks/**/*.nbconvert.ipynb
+
+# Notebook export artifacts
+*.nbconvert.ipynb
+*.nbconvert.html
+*.nbconvert.md
+
+# Qiskit cache (local transpiler/cache artifacts)
+.qiskit/
+
+# VSCode / Editors
+.vscode/
+.code-workspace
+.history/
+*.swp
+*.swo
+*.swn
+*.swm
+
+# PyCharm / IntelliJ
+.idea/
+*.iml
+
+# MacOS / Windows
 .DS_Store
-.venv
+.AppleDouble
+.LSOverride
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Python dotenv and local configs
+.env
+.env.*
+*.local
+
+# JupyterLab build artifacts
+lab/
+.jupyterlab-settings/
+
+# Data/cache/temp
+*.tmp
+tmp/
+temp/
+.cache/
+**/__temp__/
+**/scratch/
+
+# Generated docs/build
+_site/
+docs/_build/
+site/
+
+# Binary data that shouldn’t be versioned (keep Media/ images tracked)
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.gif
+# If you want to keep Media/ images tracked, unignore the folder:
+!Media/
+!Media/**
+
+# Platform-specific virtual environment scripts (Windows)
+Scripts/
+# Unix venv bin (covered by venv/, but safe)
+bin/
