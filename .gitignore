@@ -33,6 +33,7 @@ pip-delete-this-directory.txt
 
 # Virtual environments
 venv/
+fresh_qiskit_env
 .venv/
 ENV/
 env/
@@ -159,3 +160,7 @@ site/
 Scripts/
 # Unix venv bin (covered by venv/, but safe)
 bin/
+.env*
+.flaskenv*
+!.env.project
+!.env.vault
