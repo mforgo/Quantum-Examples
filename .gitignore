@@ -32,8 +32,7 @@ pip-log.txt
 pip-delete-this-directory.txt
 
 # Virtual environments
-venv/
-fresh_qiskit_env
+.qiskit_env/
 .venv/
 ENV/
 env/
@@ -126,6 +125,7 @@ $RECYCLE.BIN/
 
 # Python dotenv and local configs
 .env
+.notebook_env
 .env.*
 *.local
 
